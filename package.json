@@ -1,0 +1,34 @@
+{
+  "name"       : "@restutils/restutils-node",
+  "version"    : "0.0.0",
+  "description": "RESTUtils Library for NodeJS",
+  "main"       : "src/index.js",
+  "scripts"    : {
+    "lint"    : "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "git+https://github.com/restutils/restutils-node.git"
+  },
+  "author"  : {
+    "email": "fred.lackey@gmail.com",
+    "name" : "Fred Lackey",
+    "url"  : "http://fredlackey.com"
+  },
+  "license": "Apache-2.0",
+  "bugs"   : {
+    "url": "https://github.com/restutils/restutils-node/issues"
+  },
+  "homepage"    : "https://github.com/restutils/restutils-node#readme",
+  "dependencies": {
+    "cleaner-node"        : "^0.22.0",
+    "eslint"              : "^8.26.0",
+    "eslint-config-airbnb": "^19.0.4"
+  },
+  "devDependencies": {
+    "eslint"              : "^8.26.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
